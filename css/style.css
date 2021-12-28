@@ -7,12 +7,14 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 20px 120px;
+    padding: 10px 120px;
     position: fixed;
+    align-items: center;
     width: 85%;
     background-color: #fff;
     margin: 0;
     z-index: 9;
+    box-shadow: 0 4px 6px 0 rgb(12 0 46 / 6%);
 }
 
 .sec-1-btn {
@@ -610,6 +612,7 @@ iframe {
     margin: 140px;
     border-radius: 50px;
     margin-top: 50px;
+    box-shadow: 0 13px 51px rgb(249 94 94 / 10%)
 }
 
 .sec-4-video iframe {
@@ -633,7 +636,7 @@ iframe {
     height: 100px;
     border-radius: 50%;
     position: absolute;
-    top: 400px;
+    top: 50%;
     left: 90px;
     z-index: 9;
     border: none;
@@ -653,7 +656,7 @@ iframe {
     height: 100px;
     border-radius: 50%;
     position: absolute;
-    top: 400px;
+    top: 50%;
     right: 90px;
     border: none;
     cursor: pointer;
@@ -691,15 +694,15 @@ iframe {
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    margin: 120px;
+    margin: 130px;
     background: linear-gradient(90deg, #f2bf91, #f1a792 98.63%);
     border-radius: 30px;
+    padding-left: 0;
+    box-shadow: 0 7px 50px rgb(21 87 134 / 8%)
 }
 
 .cont-5 img {
-    position: relative;
-    top: 0;
-    left: -52px;
+    
 }
 
 .cont-6 h3 {
@@ -831,6 +834,8 @@ footer {
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+    position: relative;
+    left: 5px;
 }
 
 .subfooter {
